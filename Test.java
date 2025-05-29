@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Test {
     private int i;
     private String name;
+
     public int correct;
     public ArrayList<Integer> questionOrder;
     private Scanner getName;
@@ -21,9 +22,9 @@ public class Test {
         }
         Collections.shuffle(this.questionOrder);
 
-        for (i = 0; i <= 10; i++) {
+        for (int i : this.questionOrder) {
             this.correct += InitalizeQuestions.getQuestion(this.questionOrder.get(i));
         }
-        Conclusion.results(this.name, this.correct);
+        Conclusion.results(this.name, this.correct,this.questionOrder);
     }
 }

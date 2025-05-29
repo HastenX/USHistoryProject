@@ -5,7 +5,6 @@ public class InitalizeQuestions {
                 return QuestionList.question1();
             case 2:
                 return QuestionList.question2();
-
             case 3:
                 return QuestionList.question3();
 
