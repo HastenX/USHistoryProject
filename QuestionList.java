@@ -20,11 +20,11 @@ public class QuestionList {
         } else {
             corrections.add("""
                         Although most Americans believe that Communism 
-                            has no merrit, this is not an objective truth,
+                            has no merrt, this is not an objective truth,
                             but an example of (1) cultural relativism, where
-                            we activly impress our values and beliefs onto
+                            we actively impress our values and beliefs onto
                             others and (2) even if Communism has no relative 
-                            merrit as an economic system, we can still learn 
+                            merit as an economic system, we can still learn 
                             from its shortcomings to make a better world.
                             Therefore, communism is not 'objectively' bad.
                     """);
@@ -49,7 +49,7 @@ public class QuestionList {
                             To say that Immigration must be stopped,
                             completely overlooks the value of Immigration
                             to our culture (such as Pizza, Jewish Delis,
-                            sushi or Chineese restaurants to list some 
+                            sushi or Chinese restaurants to list some 
                             examples).
             """);
             return 0;
@@ -95,9 +95,9 @@ public class QuestionList {
                             minorities demonstrates the level of 
                             acceptance it has for its people. A
                             culture that antagonizes Queer people are
-                            less reseptive to people that step outside
+                            less receptive to people that step outside
                             cultural norms-- meaning its not only 
-                            expected, but neccesitated for men to act 
+                            expected, but necessitated for men to act 
                             masculine and women to act feminine within
                             such a culture.
             """);
@@ -139,7 +139,7 @@ public class QuestionList {
         } else {
             corrections.add("""
                         Wilson needed to convince the masses
-                            that WWI was needed to be fought.
+                            that WWI needed to be fought.
                             Therefore, he used misinformation (
                             i.e.: describing Germans as "Brutes",
                             therefore dehumanizing them). He
@@ -152,8 +152,8 @@ public class QuestionList {
     public static int question7() {
         System.out.println("""
                 True or False: The US objectively had less 
-                    misinformation from news outlets of the
-                    past than of today
+                    misinformation, by percentage from news
+                    outlets of the past, than of today
                 a) True
                 b) False""");
         Input = new Scanner(System.in);
@@ -171,7 +171,7 @@ public class QuestionList {
                             the narrative the paper in question 
                             wanted to achieve. Although it is 
                             arguable that more people can state
-                            their oppinions online, that does not
+                            their opinions online, that does not
                             objectively dismiss the amount of 
                             misinformation of the past being larger
                             or lesser than the past.
@@ -182,7 +182,7 @@ public class QuestionList {
 
     public static int question8() {
         System.out.println("""
-                True or False: One of Trumps plans for securing
+                True or False: One of Trump's plans for securing
                     "America's Golden Age" is to maintain the U.S.
                     alliance with NATO and Strengthen our allies
                 a) True
@@ -193,10 +193,10 @@ public class QuestionList {
             return 1;
         } else {
             corrections.add("""
-                        Trump has "insulted" our alies, sanctioning
-                            tarrifs against them and even threatened
+                        Trump has "insulted" our allies, sanctioning
+                            tariffs against them and even threatened
                             to revoke military support. He is not
-                            Strengthening US alies.
+                            Strengthening US allies.
             """);
             return 0;
         }
@@ -220,12 +220,12 @@ public class QuestionList {
                             he made it so that Trans people are no longer 
                             Federally recognized. This caused all 
                             government-run agencies (including NPS) to 
-                            change the majority (if not all) referals to
+                            change the majority (if not all) referrals to
                             the LGBTQIA+ community as "LGB", ignoring the 
-                            intracies of Gender, Attraction and Sexaulity,
+                            intricacies of Gender, Attraction and Sexaulity,
                             and overall-oversimplifying the Queer identity. 
                             This is important because this paves the path
-                            for polliticans to unrightfully take away even
+                            for politicians to unrightfully take away even
                             more rights from Trans people and Queer people
                             as a whole.
             """);
@@ -248,8 +248,8 @@ public class QuestionList {
                         The earliest record of the Anti-vax movement was
                             in the 1800s in the 19th century during the
                             Smallpox epidemic in England. Misinformation
-                            is not a new thing, but rather somthing that 
-                            has always exsisted and must be considered
+                            is not a new thing, but rather something that 
+                            has always existed and must be considered
                             when consuming any media
             """);
             return 0;
